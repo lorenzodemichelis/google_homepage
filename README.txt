@@ -1,0 +1,1 @@
+This is a fake version of Goolge search engine. I decided to make this as an exercise for the Odin Project WebDev Course.
