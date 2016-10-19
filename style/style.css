@@ -1,0 +1,113 @@
+body {
+	background-color: #fff;
+	color: #222;
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+
+nav {
+	background-color: #fff;
+	color: #888;
+	margin: 0px 22px 8px 22px;
+	overflow: hidden;
+	text-align: center;
+	float: right;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	line-height: 50px;
+}
+
+nav ul li a {
+	color: #888;
+	font-weight: bold;
+	padding: 0 5px;
+	text-decoration: none;
+}
+
+nav ul li a img {
+	vertical-align: middle;
+	height: 30px;
+	width: 30px;
+}
+
+.logo {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+form input {
+	border: solid 1px rgba(0, 0, 0, .2);
+	background-image: url(../images/mic.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 25px;
+	height: 30px;
+	width: 500px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer {
+	position: absolute;
+	height: 60px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	background-color: #efefef;
+	padding-right: 20px;
+}
+
+.footer ul li {
+	display: inline-block;
+	list-style-type: none;
+	line-height: 50px;
+}
+
+.footer ul li a {
+	text-decoration: none;
+	color: #888;
+	font-weight: bold;
+	padding: 0px 10px;
+}
+
+.aling-left {
+	float: left;
+}
+
+.aling-right {
+	float: right;
+}
+
+.search {
+	position: absolute;
+	top: 65%;
+	right: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.search p {
+	color: #888;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.google-search {
+	float: left;
+}
+
+.lucky {
+	float: right;
+}
